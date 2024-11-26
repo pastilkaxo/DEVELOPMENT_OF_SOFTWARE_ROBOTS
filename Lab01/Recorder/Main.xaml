@@ -95,31 +95,31 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="574,968" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1296,1318" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="512,880" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="484,1295" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Безымянный – Блокнот" sap:VirtualizedContainerService.HintSize="450,769" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Безымянный – Блокнот" sap:VirtualizedContainerService.HintSize="450,1212" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Сделать" sap:VirtualizedContainerService.HintSize="416,455" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence DisplayName="Сделать" sap:VirtualizedContainerService.HintSize="416,898" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Безымянный – Блокнот'" sap:VirtualizedContainerService.HintSize="354,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Безымянный – Блокнот'" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable DesignTimeRectangle="0, 0, 835, 538" DesignTimeScaleFactor="1" Guid="7c53846a-4987-4383-96e3-d8a9a7611e35" InformativeScreenshot="acbc4bc9357ad2ab2448235b0b15171d.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='Безымянный – Блокнот' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.FuzzySelectorArgument>
@@ -140,7 +140,7 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text Текстовый…'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Text="Владислав Лемешевский" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text Текстовый…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Text="Вацлав Жуковский" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable DesignTimeRectangle="8, 51, 802, 439" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='По горизонтали' cls='Edit' /&gt;&lt;ctrl name='Текстовый редактор' role='editable text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='По горизонтали' cls='Edit' /&gt;&lt;ctrl name='Текстовый редактор' role='editable text' automationid='' /&gt;" Guid="e9712f47-841b-4c06-912d-631655905de1" InformativeScreenshot="fa2f68122cce39ca84c8ed7e9a6f3f36.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='Безымянный – Блокнот' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
                 </uix:NTypeInto.Target>
@@ -155,7 +155,7 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Формат'" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Формат'" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0aacad21-76d6-4b18-93bb-c7ed43eb7644" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable CVScreenId="407ee2fe-848b-4036-93d3-d88e95763b8b" CvTextArea="111, 34, 45, 15" CvTextArgument="@opMat" CvType="Text" DesignTimeRectangle="105, 31, 57, 19" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='Приложение' role='menu bar' /&gt;&lt;ctrl name='Формат' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' name='Приложение' role='menu bar' /&gt;&lt;ctrl name='Формат' role='menu item' automationid='' check:text='Формат' /&gt;" Guid="a4219e8e-339d-4e9d-b308-825ba89ac214" InformativeScreenshot="5424f156ba9d345433ca94bbfe81f3a0.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='*Безымянный – Блокнот' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                 </uix:NClick.Target>

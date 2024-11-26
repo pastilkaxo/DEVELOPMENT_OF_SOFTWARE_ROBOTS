@@ -1,0 +1,15 @@
+﻿{
+  "Name": "НовыйЭкран",
+  "Type": "Screen",
+  "Id": "j4wUM9tN302Cx24Hh42H7Q",
+  "Reference": "TbrAi6djjkGCJE454__cVA/j4wUM9tN302Cx24Hh42H7Q",
+  "ParentRef": "TbrAi6djjkGCJE454__cVA/VXiTR9OkYk2DG73YGFFrAQ",
+  "Created": "2023-10-12T20:49:33.8939375Z",
+  "Updated": "2023-10-12T20:49:34.0837735Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.8.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

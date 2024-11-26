@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DtTable&Sequence_1",
+        "Company&Sequence_2",
+        "Goods&Sequence_2",
+        "Sum&Sequence_2",
+        "Price&Sequence_2",
+        "mailUser&Sequence_2",
+        "mailPass&Sequence_2",
+        "URL&Sequence_2",
+        "resmess&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
